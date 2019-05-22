@@ -7,39 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29AEE7C3DECB2034E6F85169 /* Pods_Kai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8812E193AA27294BF656731E /* Pods_Kai.framework */; };
-		FD1B068522942F9D0047BC83 /* ResetPasswordController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1B068422942F9D0047BC83 /* ResetPasswordController+UI.swift */; };
-		FD45020C228DC82C00833A5F /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD45020B228DC82C00833A5F /* ForgotPasswordViewController.swift */; };
-		FD450210228DCB1800833A5F /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD45020F228DCB1800833A5F /* UIFont+Extension.swift */; };
-		FD450213228DD62200833A5F /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD450212228DD62200833A5F /* UITextField+Extension.swift */; };
-		FD450217228DD6C800833A5F /* KaiEmailField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD450216228DD6C800833A5F /* KaiEmailField.swift */; };
-		FD450219228DD6E000833A5F /* KaiPasswordField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD450218228DD6E000833A5F /* KaiPasswordField.swift */; };
 		FD821DC3228DBF280089EB1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD821DC2228DBF280089EB1F /* AppDelegate.swift */; };
+		FD821DC5228DBF280089EB1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD821DC4228DBF280089EB1F /* ViewController.swift */; };
+		FD821DC8228DBF280089EB1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD821DC6228DBF280089EB1F /* Main.storyboard */; };
 		FD821DCA228DBF2B0089EB1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD821DC9228DBF2B0089EB1F /* Assets.xcassets */; };
-		FD821DDC228DC14A0089EB1F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD821DDB228DC14A0089EB1F /* BaseViewController.swift */; };
-		FD821DE0228DC1AE0089EB1F /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD821DDF228DC1AE0089EB1F /* UIView+Extension.swift */; };
-		FD821DE3228DC2320089EB1F /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD821DE2228DC2320089EB1F /* UIColor+Extension.swift */; };
-		FD821DE5228DC3FE0089EB1F /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD821DE4228DC3FE0089EB1F /* ResetPasswordViewController.swift */; };
+		FD821DCD228DBF2B0089EB1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD821DCB228DBF2B0089EB1F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		33260B1F905BC919AAA9ACA0 /* Pods-Kai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kai.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kai/Pods-Kai.debug.xcconfig"; sourceTree = "<group>"; };
-		8812E193AA27294BF656731E /* Pods_Kai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E4B0E1F022F1F93F2E79F12 /* Pods-Kai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kai.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kai/Pods-Kai.release.xcconfig"; sourceTree = "<group>"; };
-		FD1B068422942F9D0047BC83 /* ResetPasswordController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ResetPasswordController+UI.swift"; sourceTree = "<group>"; };
-		FD45020B228DC82C00833A5F /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
-		FD45020F228DCB1800833A5F /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
-		FD450212228DD62200833A5F /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
-		FD450216228DD6C800833A5F /* KaiEmailField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaiEmailField.swift; sourceTree = "<group>"; };
-		FD450218228DD6E000833A5F /* KaiPasswordField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaiPasswordField.swift; sourceTree = "<group>"; };
 		FD821DBF228DBF280089EB1F /* Kai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD821DC2228DBF280089EB1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD821DC4228DBF280089EB1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD821DC7228DBF280089EB1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD821DC9228DBF2B0089EB1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD821DCC228DBF2B0089EB1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD821DCE228DBF2B0089EB1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD821DDB228DC14A0089EB1F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		FD821DDF228DC1AE0089EB1F /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
-		FD821DE2228DC2320089EB1F /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
-		FD821DE4228DC3FE0089EB1F /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,78 +29,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29AEE7C3DECB2034E6F85169 /* Pods_Kai.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9BD3809BC2798ADAEB4CB5F0 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8812E193AA27294BF656731E /* Pods_Kai.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B9591D94CF3B58A0EAEB5E11 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				33260B1F905BC919AAA9ACA0 /* Pods-Kai.debug.xcconfig */,
-				9E4B0E1F022F1F93F2E79F12 /* Pods-Kai.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		FD1B068322942F7D0047BC83 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				FD1B068422942F9D0047BC83 /* ResetPasswordController+UI.swift */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		FD45020D228DCAED00833A5F /* UIFont */ = {
-			isa = PBXGroup;
-			children = (
-				FD45020F228DCB1800833A5F /* UIFont+Extension.swift */,
-			);
-			path = UIFont;
-			sourceTree = "<group>";
-		};
-		FD450211228DD5BF00833A5F /* UITextField */ = {
-			isa = PBXGroup;
-			children = (
-				FD450212228DD62200833A5F /* UITextField+Extension.swift */,
-			);
-			path = UITextField;
-			sourceTree = "<group>";
-		};
-		FD450214228DD69F00833A5F /* Kai Components */ = {
-			isa = PBXGroup;
-			children = (
-				FD450215228DD6B000833A5F /* TextFields */,
-			);
-			path = "Kai Components";
-			sourceTree = "<group>";
-		};
-		FD450215228DD6B000833A5F /* TextFields */ = {
-			isa = PBXGroup;
-			children = (
-				FD450216228DD6C800833A5F /* KaiEmailField.swift */,
-				FD450218228DD6E000833A5F /* KaiPasswordField.swift */,
-			);
-			path = TextFields;
-			sourceTree = "<group>";
-		};
 		FD821DB6228DBF280089EB1F = {
 			isa = PBXGroup;
 			children = (
 				FD821DC1228DBF280089EB1F /* Kai */,
 				FD821DC0228DBF280089EB1F /* Products */,
-				B9591D94CF3B58A0EAEB5E11 /* Pods */,
-				9BD3809BC2798ADAEB4CB5F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,100 +54,14 @@
 		FD821DC1228DBF280089EB1F /* Kai */ = {
 			isa = PBXGroup;
 			children = (
-				FD450214228DD69F00833A5F /* Kai Components */,
-				FD821DDD228DC1830089EB1F /* Extensions */,
-				FD821DDA228DC1290089EB1F /* Base Views */,
-				FD821DD6228DBFBB0089EB1F /* Supporting Files */,
-				FD821DD4228DBF6B0089EB1F /* UI */,
-			);
-			path = Kai;
-			sourceTree = "<group>";
-		};
-		FD821DD4228DBF6B0089EB1F /* UI */ = {
-			isa = PBXGroup;
-			children = (
 				FD821DC2228DBF280089EB1F /* AppDelegate.swift */,
-				FD821DD9228DC0F90089EB1F /* Reset Password */,
-				FD821DD8228DC0F20089EB1F /* Login */,
-				FD821DD7228DC0020089EB1F /* Registration */,
-				FD821DD5228DBF8A0089EB1F /* Supporting Files */,
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
-		FD821DD5228DBF8A0089EB1F /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
+				FD821DC4228DBF280089EB1F /* ViewController.swift */,
+				FD821DC6228DBF280089EB1F /* Main.storyboard */,
+				FD821DC9228DBF2B0089EB1F /* Assets.xcassets */,
+				FD821DCB228DBF2B0089EB1F /* LaunchScreen.storyboard */,
 				FD821DCE228DBF2B0089EB1F /* Info.plist */,
 			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		FD821DD6228DBFBB0089EB1F /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				FD821DC9228DBF2B0089EB1F /* Assets.xcassets */,
-			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		FD821DD7228DC0020089EB1F /* Registration */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Registration;
-			sourceTree = "<group>";
-		};
-		FD821DD8228DC0F20089EB1F /* Login */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		FD821DD9228DC0F90089EB1F /* Reset Password */ = {
-			isa = PBXGroup;
-			children = (
-				FD1B068322942F7D0047BC83 /* Extension */,
-				FD821DE4228DC3FE0089EB1F /* ResetPasswordViewController.swift */,
-				FD45020B228DC82C00833A5F /* ForgotPasswordViewController.swift */,
-			);
-			path = "Reset Password";
-			sourceTree = "<group>";
-		};
-		FD821DDA228DC1290089EB1F /* Base Views */ = {
-			isa = PBXGroup;
-			children = (
-				FD821DDB228DC14A0089EB1F /* BaseViewController.swift */,
-			);
-			path = "Base Views";
-			sourceTree = "<group>";
-		};
-		FD821DDD228DC1830089EB1F /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				FD450211228DD5BF00833A5F /* UITextField */,
-				FD45020D228DCAED00833A5F /* UIFont */,
-				FD821DE1228DC2200089EB1F /* UIColor */,
-				FD821DDE228DC18B0089EB1F /* UIView */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		FD821DDE228DC18B0089EB1F /* UIView */ = {
-			isa = PBXGroup;
-			children = (
-				FD821DDF228DC1AE0089EB1F /* UIView+Extension.swift */,
-			);
-			path = UIView;
-			sourceTree = "<group>";
-		};
-		FD821DE1228DC2200089EB1F /* UIColor */ = {
-			isa = PBXGroup;
-			children = (
-				FD821DE2228DC2320089EB1F /* UIColor+Extension.swift */,
-			);
-			path = UIColor;
+			path = Kai;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,11 +71,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD821DD1228DBF2B0089EB1F /* Build configuration list for PBXNativeTarget "Kai" */;
 			buildPhases = (
-				8A8BBDB6F1F82D09C1878E06 /* [CP] Check Pods Manifest.lock */,
 				FD821DBB228DBF280089EB1F /* Sources */,
 				FD821DBC228DBF280089EB1F /* Frameworks */,
 				FD821DBD228DBF280089EB1F /* Resources */,
-				5148ED82AA11BCEC867ACB43 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -289,77 +122,44 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD821DCD228DBF2B0089EB1F /* LaunchScreen.storyboard in Resources */,
 				FD821DCA228DBF2B0089EB1F /* Assets.xcassets in Resources */,
+				FD821DC8228DBF280089EB1F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		5148ED82AA11BCEC867ACB43 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Kai/Pods-Kai-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/UIColor_Hex_Swift/UIColor_Hex_Swift.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIColor_Hex_Swift.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kai/Pods-Kai-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8A8BBDB6F1F82D09C1878E06 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Kai-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FD821DBB228DBF280089EB1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD450210228DCB1800833A5F /* UIFont+Extension.swift in Sources */,
-				FD821DE0228DC1AE0089EB1F /* UIView+Extension.swift in Sources */,
+				FD821DC5228DBF280089EB1F /* ViewController.swift in Sources */,
 				FD821DC3228DBF280089EB1F /* AppDelegate.swift in Sources */,
-				FD45020C228DC82C00833A5F /* ForgotPasswordViewController.swift in Sources */,
-				FD450217228DD6C800833A5F /* KaiEmailField.swift in Sources */,
-				FD1B068522942F9D0047BC83 /* ResetPasswordController+UI.swift in Sources */,
-				FD450219228DD6E000833A5F /* KaiPasswordField.swift in Sources */,
-				FD821DE5228DC3FE0089EB1F /* ResetPasswordViewController.swift in Sources */,
-				FD450213228DD62200833A5F /* UITextField+Extension.swift in Sources */,
-				FD821DDC228DC14A0089EB1F /* BaseViewController.swift in Sources */,
-				FD821DE3228DC2320089EB1F /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD821DC6228DBF280089EB1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD821DC7228DBF280089EB1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD821DCB228DBF2B0089EB1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD821DCC228DBF2B0089EB1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FD821DCF228DBF2B0089EB1F /* Debug */ = {
@@ -480,12 +280,10 @@
 		};
 		FD821DD2228DBF2B0089EB1F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33260B1F905BC919AAA9ACA0 /* Pods-Kai.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S82GZQ59NS;
-				INFOPLIST_FILE = "$(SRCROOT)/Kai/UI/Supporting Files/Info.plist";
+				INFOPLIST_FILE = Kai/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -499,12 +297,10 @@
 		};
 		FD821DD3228DBF2B0089EB1F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E4B0E1F022F1F93F2E79F12 /* Pods-Kai.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S82GZQ59NS;
-				INFOPLIST_FILE = "$(SRCROOT)/Kai/UI/Supporting Files/Info.plist";
+				INFOPLIST_FILE = Kai/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
