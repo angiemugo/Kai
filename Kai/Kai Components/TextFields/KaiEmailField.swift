@@ -32,7 +32,6 @@ class KaiEmailField: UITextField {
         leftImage.contentMode = .scaleAspectFit
 
         let view = UIView(frame: CGRect(x: 10, y: 10, width: 48, height: 48))
-        view.backgroundColor = UIColor.blue_background
         view.addSubview(leftImage)
         self.leftView = view
         self.leftViewMode = .always

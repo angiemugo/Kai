@@ -38,11 +38,15 @@ class KaiPasswordField: UITextField {
         self.autocorrectionType = .no
         self.isSecureTextEntry = true
         self.setupDefaultTextfieldConfig()
-        let leftImage = UIImageView(frame: CGRect(x: 0, y: 0, width: 16, height: 16))
+        let leftImage = UIImageView(frame: CGRect(x: 10, y: 10, width: 32, height: 32))
         let image = #imageLiteral(resourceName: "unlock").withRenderingMode(.alwaysTemplate)
         leftImage.image = image
+        leftImage.tintColor = UIColor.white
         leftImage.contentMode = .scaleAspectFit
-        self.leftView = leftImage
+        
+        let view = UIView(frame: CGRect(x: 10, y: 10, width: 48, height: 48))
+        view.addSubview(leftImage)
+        self.leftView = view
         self.leftViewMode = .always
         rightViewButton.addTarget(self, action: #selector(hideToggle(_:)), for: .touchUpInside)
         self.rightView = rightViewButton
