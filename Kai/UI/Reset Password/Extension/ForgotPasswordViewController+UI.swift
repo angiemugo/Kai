@@ -1,12 +1,12 @@
 //
-//  ResetPasswordController+UI.swift
+//  ForgotPasswordViewController+UI.swift
 //  Kai
 //
 //  Created by Angie Mugo on 21/05/2019.
 //  Copyright © 2019 Angie Mugo. All rights reserved.
 //
 
-extension ResetPasswordViewController {
+extension ForgotPasswordViewController {
 
     func setUpUI() {
         view.addSubview(contentView)
